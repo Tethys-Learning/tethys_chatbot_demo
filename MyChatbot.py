@@ -15,8 +15,6 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
 OPENAI_API_KEY="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"
-#Upload pdf
-
 HUGGING_FACE_TOKEN = "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"
 
 
