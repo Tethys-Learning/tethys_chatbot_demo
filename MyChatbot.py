@@ -14,13 +14,6 @@ import tempfile
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
-OPENAI_API_KEY="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"
-HUGGING_FACE_TOKEN = "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"
-
-
-
-
-
 
 if 'vector_store' not in st.session_state:
     st.session_state.vector_store = None
